@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 60px;
     background-image: url("../images/cork-wallet.png");
     color: #777777;
@@ -29,6 +29,29 @@ h2,h3,h4,h5,h6 {
 .navbar {
     background-color: #ffffff;
     border-color: #cccccc;
+}
+
+.about {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.icons {
+    font-size: 4em;
+}
+
+.portrait {
+    float: left;
+    width: 40%;
+    margin-right: 10px;
 }
 
 .footer {
