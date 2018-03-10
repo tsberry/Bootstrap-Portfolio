@@ -1,105 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Portfolio</title>
-
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+
+  <div class="wrapper">
+
+    <header id="masthead">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="heading">
-                    <h1>Thomas Berry</h1>
-                </div>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">About</a>
-                    </li>
-                    <li class="active">
-                        <a href="portfolio.html">Portfolio
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          <div class="navbar-header">
+            <a href="index.html" id="logo">Your Name</a>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="index.html">About</a>
+              </li>
+              <li>
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <section class="main-section">
+            <h1>Portfolio</h1>
+
+            <div class="work">
+              <img class="img-responsive" src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+              <h3>Hangman</h3>
+            </div>
+            <div class="work">
+              <img class="img-responsive" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+              <h3>RPG Game</h3>
+            </div>
+            <div class="work">
+              <img class="img-responsive" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+              <h3>Trivia Game</h3>
+            </div>
+            <div class="work">
+              <img class="img-responsive" src="assets/images/technics-q-c-640-480-7.jpg" alt="Info Widget">
+
+              <h3>Info Widget</h3>
+            </div>
+            <div class="work">
+              <img class="img-responsive" src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+              <h3>Rock Paper Scissors</h3>
+            </div>
+
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="sidebar">
+            <div id="connect">
+              <h2>Connect with Me</h2>
+
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/github-128.png" alt="Github">
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/linkedin-128.png" alt="LinkedIn">
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/stackoverflow-128.png" alt="Stack Overflow">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div class="push"></div>
+  </div>
+
+  <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="portfolio">
-                    <h2>Portfolio</h2>
-                    <hr>
-                    <div class="gallery">
-                        <img class="responsive" src="assets/images/project1.jpg">
-                        <div class="project"><h3>Project 1</h3></div>
-                    </div>
-                    <div class="gallery">
-                        <img class="responsive" src="assets/images/project2.jpg">
-                        <div class="project"><h3>Project 2</h3></div>
-                    </div>
-                    <div class="gallery">
-                        <img class="responsive" src="assets/images/project3.jpg">
-                        <div class="project"><h3>Project 3</h3></div>
-                    </div>
-                    <div class="gallery">
-                        <img class="responsive" src="assets/images/project4.jpg">
-                        <div class="project"><h3>Project 4</h3></div>
-                    </div>
-                    <div class="gallery">
-                        <img class="responsive" src="assets/images/project5.jpg">
-                        <div class="project"><h3>Project 5</h3></div>
-                    </div>
-                    <div class="gallery">
-                        <img class="responsive" src="assets/images/project6.jpg">
-                        <div class="project"><h3>Project 6</h3></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="sidebar">
-                    <h3>Connect with Me</h3>
-                    <hr>
-                    <div class="icons">
-                        <a class="fab fa-github" href="https://github.com/tsberry"></a>
-                        <a class="fab fa-linkedin" href=""></a>
-                        <a class="fab fa-stack-overflow" href=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      &copy; Copyright
     </div>
-    <footer class="footer">
-        <div class="container">
-            <p>Footer</p>
-        </div>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
