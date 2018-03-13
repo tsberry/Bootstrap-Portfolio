@@ -256,7 +256,7 @@ main {
   float: left;
 
   /* Box-model */
-  max-width: 274px;
+  max-width: 100%;
   margin: 20px 0 25px;
   overflow: auto;
 }
