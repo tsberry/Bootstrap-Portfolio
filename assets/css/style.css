@@ -223,12 +223,6 @@ h3,
   display: inline-block;
 }
 
-.sidebar img {
-  /* max-width: 100%; */
-  max-height: 62px;
-  max-width: 62px;
-}
-
 .sidebar li:last-child {
   margin-right: 0;
 }
@@ -242,7 +236,6 @@ main {
 .main-section {
   float: left;
   width: 100%;
-  /* max-width: 650px; */
 
   /* Box-model */
   padding: 30px;
